@@ -1,0 +1,361 @@
+@media (max-width: 1470px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .about-us {
+        margin-bottom: 0;
+    }
+
+    .about-us__content {
+        flex-direction: column;
+    }
+
+    .about-us__subsection {
+        width: 100%;
+    }
+
+    .info-block {
+        padding: 65px 155px 65px 310px;
+    }
+
+    .about-us__text-white {
+        max-width: 454px;
+    }
+
+    .questions__item {
+        width: 100%;
+        padding: 65px 65px 65px 60px;
+    }
+
+    .footer__block-right {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        margin-bottom: 40px;
+    }
+
+    .header__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .header__menu {
+        gap: 105px;
+    }
+
+    .header__logo {
+        width: 150px;
+    }
+
+    .menu__link {
+        gap: 60px;
+    }
+
+    .start-screen {
+        margin-bottom: 35px;
+    }
+
+    .start-screen__wrapper {
+        padding: 160px 77px;
+    }
+
+    .start-screen__title {
+        margin-bottom: 16px;
+        font-size: 60px;
+    }
+
+    .start-screen__text {
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+
+    .start-screen__button {
+        padding: 19px 37px;
+        font-size: 24px;
+    }
+
+    .about-us {
+        margin-bottom: 77px;
+    }
+
+    .about-us__text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 940px) {
+    .header__logo {
+        width: 110px;
+    }
+
+    .header__menu {
+        gap: 43px;
+    }
+
+    .menu__list {
+        gap: 40px;
+    }
+
+    .menu__item {
+        font-size: 16px;
+    }
+
+    .about-us__text-white {
+        width: 366px;
+    }
+
+    .info-block {
+        padding: 35px 92px 35px 170px;
+        background-size: 114px 99px;
+        background-position: 5% 49%;
+    }
+
+    .steps__content {
+        flex-direction: column-reverse;
+        gap: 38px;
+    }
+
+    .steps__block {
+        width: 100%;
+    }
+
+    .steps__block-right {
+        min-height: 284px;
+    }
+
+    .questions__item {
+        padding: 35px 65px 35px 40px;
+    }
+}
+
+@media (max-width: 780px) {
+    .start-screen__wrapper {
+        padding: 160px 40px;
+    }
+
+    .start-screen__title {
+        font-size: 50px;
+    }
+
+    .start-screen__text {
+        font-size: 18px;
+    }
+
+    .start-screen__button {
+        padding: 18px 39px;
+    }
+
+    .footer__wrapper {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .footer__nav {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .button-filled,
+    .button-transparent,
+    .button-black {
+        border-radius: 8px;
+        font-size: 12px;
+    }
+
+    .button-transparent {
+        border-width: 2px;
+        color: var(--orange);
+    }
+
+    .subtitle {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .header {
+        border-radius: 0px 0px 16px 16px;
+        margin-bottom: 20px;
+    }
+
+    .start-screen {
+        margin-bottom: 60px;
+    }
+
+    .start-screen__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: auto;
+        padding: 60px 21px;
+        border-radius: 16px;
+    }
+
+    .start-screen__title {
+        margin-bottom: 6px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .start-screen__text {
+        margin-bottom: 32px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .start-screen__button {
+        padding: 19px 37px;
+        font-size: 12px;
+    }
+
+    .about-us {
+        margin-bottom: 59px;
+    }
+
+    .about-us__text {
+        margin-bottom: 14px;
+    }
+
+    .about-us__subsection {
+        min-height: 400px;
+    }
+
+    .about-us__subsection-left {
+        padding: 0;
+        padding-top: 75%;
+        background-position: center top;
+        background-size: 100%
+    }
+
+    .about-us__left-down {
+        padding: 0;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+        background-color: inherit;
+    }
+
+    .about-us__text-white {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        /* 200% */
+        color: #000;
+    }
+
+    .info-block {
+        border: none;
+        padding: 0;
+        padding-top: 17%;
+        background-size: 64px 49px;
+        background-position: top left;
+    }
+
+    .steps {
+        margin-bottom: 60px;
+    }
+
+    .steps__title {
+        margin-bottom: 20px;
+    }
+
+    .steps__button-left {
+        padding: 12px 44px;
+    }
+
+    .steps__button-right {
+        padding: 12px 32px;
+    }
+
+    .questions {
+        margin-bottom: 60px;
+    }
+
+    .questions__list {
+        gap: 32px;
+    }
+
+    .question-block__title {
+        margin-bottom: 20px;
+    }
+
+    .questions__item {
+        padding: 0;
+        border: none;
+    }
+
+    .question-block__title {
+        margin-bottom: 4px;
+    }
+
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .footer__wrapper {
+        align-items: center;
+    }
+
+    .footer__block-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        align-content: center;
+        padding-top: 16px;
+        border-top: 1px solid var(--gray-dark);
+    }
+
+    .footer__logo {
+        width: 131px;
+    }
+
+    .footer__socials {
+        gap: 16px;
+    }
+
+    .form__input {
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    .form__bottom {
+        gap: 11px;
+    }
+
+    .social-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .form__button {
+        padding: 12px 19px;
+    }
+}
